@@ -1,0 +1,70 @@
+body {
+    font-family : "lemon milk";
+    margin : 0;
+    padding : 0;
+    background-color : #f4f4f4;
+}
+
+.contenu {
+    display : flex; /* page flexible */
+    max-width : 1200px; /* largeur maximale */
+    margin : 20px auto; /* marge depuis la gauche automatique */
+    background-color : #ffffff; /* couleur de fond blanc */
+    box-shadow : 0 4px 8px rgba(0, 0, 0, 0.1); /* ombre portée du cadre */
+}
+
+.sidebar {
+    background-color : #333333; /* couleur du bloc de gauche */
+    color : #ffffff; /* couleur du texte dans le bloc de gauche */
+    padding : 20px; /* padding du bloc */
+    width : 30%; /*taille en % du bloc */
+}
+
+.sidebar h2 {
+    font-size : 20px; /* taille police */
+    margin-bottom : 10px; /* marge */
+}
+
+.sidebar p, .sidebar ul { /* bloc gauche noir */
+    font-size : 14px; /* taille police du paragraphe du bloc */
+    line-height : 1.6; /* espacement du texte du bloc */
+}
+
+.sidebar ul {
+    padding-left : 20px; /* padding sur la droite de la liste non-numérotée */
+}
+
+.content {
+    padding : 20px;
+    width : 70%;
+}
+
+.content h1 {
+    font-size : 28px; /* taille police des titres h1 */
+    margin-bottom : 5px; 
+}
+
+.content h2 {
+    font-size : 20px; /* taille police */
+    margin-top : 20px;
+    border-bottom : 2px solid #333333; /* ligne noire */
+    padding-bottom : 5px;
+}
+
+.content p {
+    font-size : 16px;
+    margin-bottom : 10px;
+}
+
+.experience {
+    margin-bottom : 20px;
+}
+
+.experience h3 {
+    font-size : 18px; /* taille police */
+    margin : 10px 0;
+}
+
+.experience p {
+    margin : 5px 0 10px 0;
+}
